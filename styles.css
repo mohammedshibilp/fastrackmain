@@ -523,11 +523,18 @@ ul {
   transform: translateX(4px);
 }
 
-.course-item i {
+.course-item i,
+.course-arrow-icon {
   color: var(--orange-accent);
-  font-size: 0.85rem;
-  margin-top: 4px;
-  font-weight: bold;
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+  margin-top: 3px;
+  transition: transform 0.3s ease;
+}
+
+.course-item:hover .course-arrow-icon {
+  transform: translate(2px, -2px);
 }
 
 /* WHY CHOOSE US SECTION (Page 3 - White Background #FFFFFF) */
