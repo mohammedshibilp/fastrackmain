@@ -1034,6 +1034,10 @@ ul {
     margin-bottom: 18px;
   }
 
+  .hero-cta-btn {
+    display: none !important;
+  }
+
   .welcome-content h2,
   .why-header h2,
   .steps-header h2,
