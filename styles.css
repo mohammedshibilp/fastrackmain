@@ -234,14 +234,7 @@ ul {
 }
 
 .hero-section::before {
-  content: '';
-  position: absolute;
-  top: -10%;
-  right: -5%;
-  width: 500px;
-  height: 500px;
-  background: radial-gradient(circle, rgba(238, 123, 17, 0.12) 0%, rgba(50, 23, 90, 0) 70%);
-  pointer-events: none;
+  display: none;
 }
 
 .hero-grid {
