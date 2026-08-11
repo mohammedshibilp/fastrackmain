@@ -209,6 +209,12 @@ ul {
   width: 100%;
 }
 
+.nav-right-group {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+}
+
 .mobile-toggle {
   display: none;
   background: none;
