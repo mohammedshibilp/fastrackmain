@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Fastrack Edu Hub - Recognized University Certification & Fast-Track Courses</title>
+  <meta name="description" content="FastTrack Edu Hub is a modern educational institution focused on providing fast-track learning opportunities, Skill Development Courses, Higher Education Programs, and Equivalency Qualifications.">
+  
+  <!-- FontAwesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Custom Stylesheet -->
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- Site Navigation Header (Exact Page 1 Dark Purple Header with Light Logo) -->
+  <header class="site-header">
+    <div class="container nav-wrapper">
+      <a href="#home">
+        <img src="assets/logo_exact_white.png" alt="Fastrack Edu Hub - Fast Learning, Fast Growth" class="brand-logo-img">
+      </a>
+      
+      <nav class="nav-links" id="navLinks">
+        <a href="#home" class="active">Home</a>
+        <a href="#welcome">About Us</a>
+        <a href="#courses">Our Courses</a>
+        <a href="#why-us">Why Choose Us</a>
+        <a href="#steps">Process</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="btn btn-outline" onclick="openModal('General Inquiry')">Contact Us</button>
+
+      <button class="mobile-toggle" id="mobileToggle" aria-label="Toggle navigation">
+        <i class="fas fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- HERO SECTION (Page 1 Top - Exact Dark Purple Background #32175a) -->
+  <section class="hero-section" id="home">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <h1>
+          <span class="text-orange">Invest in</span> <span class="text-white" style="font-weight: 400;">Knowledge.</span><br>
+          <span class="text-orange">Earn A</span> <span class="text-white" style="font-weight: 400;">Recognized</span><br>
+          <span class="text-orange">University Certificate.</span>
+        </h1>
+        <p>
+          A Modern Educational Institution Focused on Providing Fast-track Learning Opportunities for Students and Professionals.
+        </p>
+        <button class="btn btn-outline" onclick="openModal('Hero Contact Us')">Contact Us</button>
+      </div>
+
+      <div class="hero-graphic">
+        <img src="assets/hero_right_flawless.png" alt="Fastrack Edu Hub - Earn Recognized University Certification" width="510" height="475">
+      </div>
+    </div>
+  </section>
+
+  <!-- ACCREDITATION SECTION (Off-White Strip with Auto Moving Right-To-Left Ticker) -->
+  <section class="accreditation-section">
+    <div class="marquee-wrapper">
+      <div class="marquee-track">
+        <!-- Set 1 of 8 Logos -->
+        <div class="marquee-item"><img src="assets/logos/ugc.png" alt="UGC Approval"></div>
+        <div class="marquee-item"><img src="assets/logos/aicte.png" alt="AICTE Approval"></div>
+        <div class="marquee-item"><img src="assets/logos/aiu.png" alt="AIU Member"></div>
+        <div class="marquee-item"><img src="assets/logos/mepsc.png" alt="MEPSC Approval"></div>
+        <div class="marquee-item"><img src="assets/logos/bci.png" alt="BCI Approval"></div>
+        <div class="marquee-item"><img src="assets/logos/hssc.png" alt="HSSC Collaboration"></div>
+        <div class="marquee-item"><img src="assets/logos/ncte.png" alt="NCTE Approval"></div>
+        <div class="marquee-item"><img src="assets/logos/naac.png" alt="NAAC Accredited"></div>
+
+        <!-- Set 2 of 8 Logos (For Seamless Loop) -->
+        <div class="marquee-item"><img src="assets/logos/ugc.png" alt="UGC Approval"></div>
+        <div class="marquee-item"><img src="assets/logos/aicte.png" alt="AICTE Approval"></div>
+        <div class="marquee-item"><img src="assets/logos/aiu.png" alt="AIU Member"></div>
+        <div class="marquee-item"><img src="assets/logos/mepsc.png" alt="MEPSC Approval"></div>
+        <div class="marquee-item"><img src="assets/logos/bci.png" alt="BCI Approval"></div>
+        <div class="marquee-item"><img src="assets/logos/hssc.png" alt="HSSC Collaboration"></div>
+        <div class="marquee-item"><img src="assets/logos/ncte.png" alt="NCTE Approval"></div>
+        <div class="marquee-item"><img src="assets/logos/naac.png" alt="NAAC Accredited"></div>
+
+        <!-- Set 3 of 8 Logos (For Continuous Motion) -->
+        <div class="marquee-item"><img src="assets/logos/ugc.png" alt="UGC Approval"></div>
+        <div class="marquee-item"><img src="assets/logos/aicte.png" alt="AICTE Approval"></div>
+        <div class="marquee-item"><img src="assets/logos/aiu.png" alt="AIU Member"></div>
+        <div class="marquee-item"><img src="assets/logos/mepsc.png" alt="MEPSC Approval"></div>
+        <div class="marquee-item"><img src="assets/logos/bci.png" alt="BCI Approval"></div>
+        <div class="marquee-item"><img src="assets/logos/hssc.png" alt="HSSC Collaboration"></div>
+        <div class="marquee-item"><img src="assets/logos/ncte.png" alt="NCTE Approval"></div>
+        <div class="marquee-item"><img src="assets/logos/naac.png" alt="NAAC Accredited"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WELCOME SECTION (Page 1 Lower Middle - White Background #FFFFFF) -->
+  <section class="welcome-section" id="welcome">
+    <div class="container welcome-grid">
+      <div class="welcome-image-box">
+        <img src="assets/welcome_grid.jpg" alt="Welcome to Fastrack Edu Hub Students">
+      </div>
+      <div class="welcome-content">
+        <h2>Welcome to <span class="text-orange">Fastrack Edu Hub</span></h2>
+        <p>
+          FastTrack Edu Hub is a modern educational institution dedicated to providing fast-track learning opportunities for students, job seekers, and working professionals. We offer a comprehensive range of Skill Development Courses, Higher Education Programs, and Equivalency Qualifications that help learners upgrade their knowledge, enhance their employability, and achieve academic advancement in a shorter timeframe.
+        </p>
+        <p>
+          Our programs span diverse sectors including Technology, Engineering, Healthcare, Management, Design, Finance, Hospitality, Aviation, and many more. Through a learner-centric approach, experienced guidance, and flexible learning pathways, we make quality education accessible and career-focused.
+        </p>
+        <p>
+          Certificates and qualifications for eligible higher education programs are awarded through UGC-recognized universities and institutions, ensuring academic credibility and professional value.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- FAST LEARNING BANNER (Page 1 Bottom - Exact Dark Purple Background #32175a) -->
+  <section class="fast-learning-banner">
+    <div class="container">
+      <h2>
+        <span class="text-orange">Fast Learning,</span> <span class="text-white">Quick Certification</span><br>
+        <span class="text-orange">Boost</span> <span class="text-white">Your Career</span>
+      </h2>
+    </div>
+  </section>
+
+  <!-- TRANSFORM YOUR FUTURE SECTION (Page 1 Lower - White Background #FFFFFF) -->
+  <section class="transform-section">
+    <div class="container">
+      <h2>Transform Your Future <span class="text-orange">with Quality Education</span></h2>
+      <p>
+        Whether you want to learn a new skill, complete your academic qualifications, or enhance your professional expertise, Fastrack Edu Hub provides the right pathway to success through practical learning and recognized programs.
+      </p>
+    </div>
+  </section>
+
+  <!-- OUR COURSES SECTION (Page 2 - Dark Purple Background #32175a) -->
+  <section class="courses-section" id="courses">
+    <div class="container">
+      <div class="courses-header">
+        <h2>Our <span class="text-orange">Courses</span></h2>
+      </div>
+
+      <div class="courses-grid">
+        <!-- Box 1: Skill Development Courses -->
+        <div class="course-card">
+          <div class="course-card-title">Skill Development Courses</div>
+          <div class="course-list-2col">
+            <div class="course-item"><i>↗</i> <span>International Montessori Teacher Training</span></div>
+            <div class="course-item"><i>↗</i> <span>Receptionist & Front Office Management</span></div>
+            <div class="course-item"><i>↗</i> <span>Pre-Primary Teachers Training Course (PPTTC)</span></div>
+            <div class="course-item"><i>↗</i> <span>Advanced Beauty & Wellness Management</span></div>
+            <div class="course-item"><i>↗</i> <span>Professional Graphic Design & Motion Graphics</span></div>
+            <div class="course-item"><i>↗</i> <span>Professional Accounting & Finance Management</span></div>
+            <div class="course-item"><i>↗</i> <span>Professional Video Editing & Content Creation</span></div>
+            <div class="course-item"><i>↗</i> <span>Fashion Designing & Tailoring</span></div>
+            <div class="course-item"><i>↗</i> <span>PRO & Customer Relationship Management</span></div>
+            <div class="course-item"><i>↗</i> <span>Digital Media & Content Creation</span></div>
+            <div class="course-item"><i>↗</i> <span>Hospital Administration & Medical Coding</span></div>
+            <div class="course-item"><i>↗</i> <span>Artificial Intelligence (AI) & Machine Learning</span></div>
+          </div>
+        </div>
+
+        <!-- Subgrid for Box 2 & Box 3 -->
+        <div class="courses-subgrid">
+          <!-- Box 2: Higher Education Programs -->
+          <div class="course-card">
+            <div class="course-card-title">Higher Education Programs</div>
+            <div class="course-list">
+              <div class="course-item"><i>↗</i> <span>Diploma & PG Diploma</span></div>
+              <div class="course-item"><i>↗</i> <span>UG & PG Degree</span></div>
+              <div class="course-item"><i>↗</i> <span>B.Tech & M.Tech</span></div>
+              <div class="course-item"><i>↗</i> <span>LL.B & LL.M Law</span></div>
+            </div>
+          </div>
+
+          <!-- Box 3: Equivalency & Qualification Program -->
+          <div class="course-card">
+            <div class="course-card-title">Equivalency & Qualification Program</div>
+            <div class="course-list">
+              <div class="course-item"><i>↗</i> <span>SSLC Equivalency</span></div>
+              <div class="course-item"><i>↗</i> <span>Higher Secondary (+2) Equivalency</span></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- WHY CHOOSE US SECTION (Page 3) -->
+  <section class="why-section" id="why-us">
+    <div class="container">
+      <div class="why-card-container">
+        <div class="why-header">
+          <h2>Why <span class="text-orange">Choose Us?</span></h2>
+        </div>
+
+        <div class="why-grid">
+          <div class="why-image">
+            <img src="assets/woman_pointing.jpg" alt="Why Choose Fastrack Edu Hub - Expert Guidance">
+          </div>
+
+          <div class="why-features-list">
+            <div class="why-feature-item">
+              <div class="why-icon"><i class="fas fa-certificate"></i></div>
+              <div class="why-feature-content">
+                <h3>University Certification</h3>
+                <p>Earn a recognized certificate that strengthens your academic and professional credentials.</p>
+              </div>
+            </div>
+
+            <div class="why-feature-item">
+              <div class="why-icon"><i class="fas fa-award"></i></div>
+              <div class="why-feature-content">
+                <h3>Academic Recognition</h3>
+                <p>Programs offered through institutions associated with UGC, AICTE, AIU, BCI and MEPSC collaborations.</p>
+              </div>
+            </div>
+
+            <div class="why-feature-item">
+              <div class="why-icon"><i class="fas fa-bolt"></i></div>
+              <div class="why-feature-content">
+                <h3>Fast-track Learning Structure</h3>
+                <p>designed to quickly learn in Fast-Track mode and earn a certificate</p>
+              </div>
+            </div>
+
+            <div class="why-feature-item">
+              <div class="why-icon"><i class="fas fa-user-graduate"></i></div>
+              <div class="why-feature-content">
+                <h3>For Students & Job Seekers</h3>
+                <p>Suitable for students, job seekers, and working professionals.</p>
+              </div>
+            </div>
+
+            <div class="why-feature-item">
+              <div class="why-icon"><i class="fas fa-briefcase"></i></div>
+              <div class="why-feature-content">
+                <h3>Career-oriented Certification</h3>
+                <p>Gain an understanding of technologies and systems used across various industries.</p>
+              </div>
+            </div>
+
+            <div class="why-feature-item">
+              <div class="why-icon"><i class="fas fa-chart-line"></i></div>
+              <div class="why-feature-content">
+                <h3>Qualification Enhancement</h3>
+                <p>Add valuable credentials to your educational portfolio and resume.</p>
+              </div>
+            </div>
+
+            <div class="why-feature-item">
+              <div class="why-icon"><i class="fas fa-coins"></i></div>
+              <div class="why-feature-content">
+                <h3>Affordable Course Fees</h3>
+                <p>Access quality technical education at an affordable cost.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SIMPLE STEPS SECTION (Page 4) -->
+  <section class="steps-section" id="steps">
+    <div class="container">
+      <div class="steps-card-container">
+        <div class="steps-header">
+          <h2>Simple Steps to <span class="text-orange">Achieve Your Goals</span></h2>
+        </div>
+
+        <div class="steps-grid">
+          <div class="step-card">
+            <h3>Course Selection</h3>
+            <p>Choose the right program to match your goals.</p>
+          </div>
+
+          <div class="step-card">
+            <h3>Enrollment</h3>
+            <p>Register and secure your place in the course.</p>
+          </div>
+
+          <div class="step-card">
+            <h3>Learning & Training</h3>
+            <p>Gain knowledge through structured lessons and practice.</p>
+          </div>
+
+          <div class="step-card">
+            <h3>Certification & Qualification</h3>
+            <p>Earn recognized credentials for your skills.</p>
+          </div>
+
+          <div class="step-card">
+            <h3>Career Growth</h3>
+            <p>Apply your learning to advance professionally.</p>
+          </div>
+
+          <div class="step-card">
+            <h3>Future Opportunities</h3>
+            <p>Unlock pathways for higher studies or specialized roles.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GET IN TOUCH SECTION (Page 5 - Exact Design Match) -->
+  <section class="touch-section" id="contact">
+    <div class="container">
+      <div class="touch-card-container">
+        <div class="touch-grid">
+          <div class="touch-content">
+            <h2>Get in <span class="text-orange">Touch</span></h2>
+            <p>
+              Ready to take the next step in your educational journey? Contact Fastrack Edu Hub today and discover the perfect program for your future.
+            </p>
+          </div>
+
+          <div class="touch-buttons">
+            <a href="tel:+919207000923" class="btn btn-orange">Call Now</a>
+            <a href="mailto:fastrackeduhub@gmail.com" class="btn btn-orange">Email</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- SITE FOOTER (Page 1 Dark Purple Footer) -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div class="footer-about">
+          <a href="#home">
+            <img src="assets/logo_exact_white.png" alt="Fastrack Edu Hub Logo" class="brand-logo-img">
+          </a>
+          <p>
+            Providing fast-track learning opportunities, higher education programs, and UGC-recognized university certifications for students and working professionals.
+          </p>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Quick Links</h4>
+          <div class="footer-links">
+            <a href="#home">Home</a>
+            <a href="#welcome">About Us</a>
+            <a href="#courses">Courses</a>
+            <a href="#why-us">Why Choose Us</a>
+            <a href="#steps">Enrollment Steps</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Programs</h4>
+          <div class="footer-links">
+            <a href="#courses">Skill Development</a>
+            <a href="#courses">Higher Education</a>
+            <a href="#courses">Equivalency Programs</a>
+            <a href="#courses">Degree Programs</a>
+          </div>
+        </div>
+
+        <div>
+          <h4 class="footer-title">Contact Us</h4>
+          <div class="footer-contact-item">
+            <i class="fas fa-envelope"></i>
+            <a href="mailto:fastrackeduhub@gmail.com" style="color: inherit;">fastrackeduhub@gmail.com</a>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-phone-alt"></i>
+            <a href="tel:+919207000923" style="color: inherit;">+91 920 7000 923</a>
+          </div>
+          <div class="footer-contact-item">
+            <i class="fas fa-globe"></i>
+            <a href="https://www.fastrackeduhub.com" target="_blank" style="color: inherit;">www.fastrackeduhub.com</a>
+          </div>
+          <div class="footer-contact-item" style="align-items: flex-start;">
+            <i class="fas fa-map-marker-alt" style="margin-top: 3px;"></i>
+            <span>Musaffa Tower, Opp. Bharat Petroleum, Near Neha Hospital, Main Road, Kottakkal, Malappuram Dist - 676503</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>&copy; 2026 Fastrack Edu Hub. All Rights Reserved.</p>
+        <p>Fast Learning, Fast Growth.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- INTERACTIVE INQUIRY MODAL -->
+  <div class="modal-overlay" id="enquiryModal">
+    <div class="modal-container">
+      <button class="modal-close" id="modalClose" aria-label="Close modal">&times;</button>
+      <h3 class="modal-title">Get In Touch</h3>
+      <p class="modal-subtitle">Fill in your details below and our academic counselor will get in touch with you.</p>
+
+      <form id="enquiryForm">
+        <div class="form-group">
+          <label for="nameInput">Full Name *</label>
+          <input type="text" id="nameInput" class="form-control" placeholder="Enter your full name" required>
+        </div>
+
+        <div class="form-group">
+          <label for="phoneInput">Phone / WhatsApp Number *</label>
+          <input type="tel" id="phoneInput" class="form-control" placeholder="Enter phone number" required>
+        </div>
+
+        <div class="form-group">
+          <label for="emailInput">Email Address</label>
+          <input type="email" id="emailInput" class="form-control" placeholder="Enter email address">
+        </div>
+
+        <div class="form-group">
+          <label for="selectedCourseInput">Program of Interest</label>
+          <input type="text" id="selectedCourseInput" class="form-control" value="General Inquiry" readonly>
+        </div>
+
+        <div class="form-group">
+          <label for="msgInput">Message (Optional)</label>
+          <textarea id="msgInput" class="form-control" rows="3" placeholder="Tell us about your educational background or query"></textarea>
+        </div>
+
+        <button type="submit" class="btn btn-orange" style="width: 100%;">Submit Inquiry</button>
+      </form>
+    </div>
+  </div>
+
+  <!-- TOAST NOTIFICATION -->
+  <div class="toast-msg" id="toastMsg"></div>
+
+  <!-- Client Script -->
+  <script src="script.js"></script>
+</body>
+</html>
