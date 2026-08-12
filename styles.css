@@ -270,7 +270,9 @@ ul {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-end;
+  align-self: flex-end;
+  margin-bottom: -50px;
 }
 
 /* Exact Seamless Page 1 Hero Graphic - Zero Card Shadows, Zero Box Lines */
@@ -281,6 +283,8 @@ ul {
   background: transparent;
   max-width: 100%;
   height: auto;
+  display: block;
+  vertical-align: bottom;
   transition: var(--transition);
 }
 
@@ -1024,6 +1028,10 @@ ul {
   /* Typography scale down for mobile view */
   .hero-section {
     padding: 95px 0 35px 0;
+  }
+
+  .hero-graphic {
+    margin-bottom: -35px;
   }
 
   .hero-content h1 {
