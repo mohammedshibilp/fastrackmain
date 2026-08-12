@@ -230,7 +230,7 @@ ul {
 /* HERO SECTION (Page 1 Top - Exact Dark Purple Background #32175a) */
 .hero-section {
   background-color: var(--purple-main);
-  padding: 98px 0 0 0;
+  padding: 98px 0 50px 0;
   position: relative;
   overflow: hidden;
   color: #FFFFFF;
@@ -243,12 +243,8 @@ ul {
 .hero-grid {
   display: grid;
   grid-template-columns: 1.15fr 0.85fr;
-  align-items: end;
+  align-items: center;
   gap: 32px;
-}
-
-.hero-content {
-  padding-bottom: 50px;
 }
 
 .hero-content h1 {
@@ -274,7 +270,7 @@ ul {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
 }
 
 /* Exact Seamless Page 1 Hero Graphic - Zero Card Shadows, Zero Box Lines */
@@ -285,8 +281,6 @@ ul {
   background: transparent;
   max-width: 100%;
   height: auto;
-  display: block;
-  vertical-align: bottom;
   transition: var(--transition);
 }
 
@@ -1029,11 +1023,7 @@ ul {
 
   /* Typography scale down for mobile view */
   .hero-section {
-    padding: 95px 0 0 0;
-  }
-
-  .hero-content {
-    padding-bottom: 25px;
+    padding: 95px 0 35px 0;
   }
 
   .hero-content h1 {
